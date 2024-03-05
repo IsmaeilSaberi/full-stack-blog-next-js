@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: vazir_medium, sans-serif;
+  direction: rtl;
+}
+
+@font-face {
+  font-family: vazir_black;
+  src: url("/font/Vazir-Black.ttf");
+  font-display: block;
+}
+@font-face {
+  font-family: vazir_medium;
+  src: url("/font/Vazir-Medium.ttf");
+  font-display: block;
+}
+@font-face {
+  font-family: vazir_bold;
+  src: url("/font/Vazir-Bold.ttf");
+  font-display: block;
+}
+@font-face {
+  font-family: vazir_regular;
+  src: url("/font/Vazir-Regular.ttf");
+  font-display: block;
+}
+
+@import url("./custom.css");
